@@ -2,8 +2,9 @@
 
 &nbsp;&nbsp;&nbsp;DisqubeNotifier is a lightweight FastAPI implementation of a Webhook bridge between SonarQube and Discord. Simply run DisqubeNotifier with a webhook URL pointing to your channel of choice and direct SonarQube to DisqubeNotifier's URL and *viola!*
 
-**Codesnap Placeholder**<br>
-**Sample Embed Placeholder**
+<p align="center">
+  <img width="40%" src="https://user-images.githubusercontent.com/42786624/151066515-6c0f225d-20bd-4ab3-b047-98bfd8afadec.png">
+</p>
 
 # Quickstart
 
@@ -24,3 +25,7 @@ Administration -> Configuration -> Webhooks -> Create
 - Input URL where SonarQube can access DisqubeNotifier (If on the same machine, this may be http://localhost:42000)
 
 All Done!
+
+<p align="center">
+  <img width="80%" src="https://user-images.githubusercontent.com/42786624/151066399-fe7cc36c-6293-4615-afda-f5f3ad720f4e.png">
+</p>
