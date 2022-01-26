@@ -16,7 +16,10 @@ Edit Channel -> Integrations -> Create Webhook
 **Run the container:**
 
 ```
-docker run -d -p 42000:42000 -e WEBHOOK_URL=[YOUR WEBHOOK URL HERE] zetatauepsilon/disqubenotifier:latest
+docker run -d \
+   -p 42000:42000 \ 
+   -e WEBHOOK_URL=[YOUR WEBHOOK URL HERE] \
+   zetatauepsilon/disqubenotifier:latest
 ```
 
 **Configure SonarQube:** <br>
